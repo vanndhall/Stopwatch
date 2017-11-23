@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+@import "imports";
+body{
+ padding: 20px;
+ text-align: center;
+}
+
+
+[data-load="templates.show"]{
+    
+    display:inline-block;
+
+}
+
+[data-load="logs.render"]{
+ margin-top:12px;
+ &:empty:after{
+   content:"no results";  
+ }   
+ div{
+     user-select:none;   
+     padding: 15px;
+     border:2px solid #4d4dff;
+     border-radius: 15px;
+     cursor: pointer;
+     &:hover{
+         background: #66e0ff;
+     }
+
+ }   
+}
+
+    .wall
+    {
+    width: 430px;
+    height: 155px;    
+   
+
+      
+    }
+
+.output
+{
+font-size:5em;
+border-radius:3px;
+background:transparent;
+}
+    input
+    {
+    font-size:30px;
+    width:140px;
+    height:60px;
+    border-radius:3px;
+    }
+
+.startbutton
+{
+background-color: green;
+border-color: green;
+}
+
+    .stopbutton 
+    {
+    background-color: red;
+    border-color: red;   
+    }
+
+.resetbutton 
+{
+background-color: gray;
+border-color: gray;
+}

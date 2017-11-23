@@ -1,0 +1,27 @@
+{
+  "name": "fearless-academy",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "brunch watch --server"
+  },
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "dependencies": {
+    "mime": "^1.4.0"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "*",
+    "autoprefixer": "*",
+    "babel-brunch": "*",
+    "babel-preset-env": "^1.6.1",
+    "brunch": "*",
+    "sass-brunch": "*",
+    "uglify-js-brunch": "*"
+  }
+}
